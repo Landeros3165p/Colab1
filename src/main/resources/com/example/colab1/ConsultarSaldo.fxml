@@ -5,12 +5,13 @@
 
 <AnchorPane prefHeight="538.0" prefWidth="812.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.colab1.ConsultarController">
    <children>
-      <Button fx:id="La" layoutX="73.0" layoutY="297.0" mnemonicParsing="false" text="Mostrar saldo disponible" />
-      <Button layoutX="73.0" layoutY="213.0" mnemonicParsing="false" text="Nombre del titular" />
+      <Button layoutX="73.0" layoutY="297.0" mnemonicParsing="false" onAction="#OnMostra" text="Mostrar saldo disponible" />
+      <Button fx:id="Name" layoutX="62.0" layoutY="213.0" mnemonicParsing="false" onAction="#OnName" text="Nombre del titular" />
       <Button fx:id="Saldo" layoutX="73.0" layoutY="124.0" mnemonicParsing="false" onAction="#OnSaldo" text="Ingresar saldo" />
-      <TextField fx:id="Saldo1" layoutX="227.0" layoutY="124.0" />
-      <Label layoutX="263.0" layoutY="217.0" text="eloys" visible="false" />
-      <Label layoutX="263.0" layoutY="301.0" text="tu saldo " visible="false" />
-      <Label fx:id="Mostar" layoutX="442.0" layoutY="128.0" text="Label" visible="false" />
+      <TextField fx:id="Saldo1" layoutX="227.0" layoutY="124.0" visible="false" />
+      <Label fx:id="Eloys" layoutX="263.0" layoutY="217.0" text="eloys" visible="false" />
+      <Label fx:id="Comision" layoutX="263.0" layoutY="301.0" text="tu saldo " visible="false" />
+      <Label fx:id="Muestra" layoutX="442.0" layoutY="128.0" text="Label" visible="false" />
+      <Button fx:id="Sal" layoutX="380.0" layoutY="449.0" mnemonicParsing="false" onAction="#OnSalir" text="Salir" />
    </children>
 </AnchorPane>
