@@ -4,6 +4,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
+
 <AnchorPane prefHeight="393.0" prefWidth="565.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.colab1.VistaController">
    <children>
       <Button fx:id="Saldo" layoutX="227.0" layoutY="98.0" mnemonicParsing="false" onAction="#OnConsultar" text="Consultar saldo" />
