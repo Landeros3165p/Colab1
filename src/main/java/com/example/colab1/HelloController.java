@@ -31,12 +31,12 @@ public class HelloController {
         intentosContrasenioas = txt2.getText();
 
         if (intentosUsuario.equals(usuario)&&intentosContrasenioas.equals(contrasenia)){
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("segundaVista.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("SegundaVista.fxml"));
             try {
                 Parent root = loader.load();
 
                 Stage stage = new Stage();
-                stage.setTitle("segunda vista");//hola
+                stage.setTitle("Bienvenido al menú");//hola
                 stage.setScene(new Scene(root));
                 stage.show();
             }catch (IOException e){
