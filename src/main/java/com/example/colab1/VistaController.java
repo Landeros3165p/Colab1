@@ -26,4 +26,20 @@ public class VistaController {
             e.printStackTrace();
         }
     }
+    @FXML
+    public void onDepositar (ActionEvent event){
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Depositar.fxml"));
+        try {
+
+            Parent root = loader.load();
+
+            Stage stage = new Stage();
+            stage.setTitle("Aqui depositas");
+            stage.setScene(new Scene(root));
+            stage.show();
+
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
 }
