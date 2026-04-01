@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="393.0" prefWidth="565.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.colab1.VistaController">
+
+<AnchorPane prefHeight="393.0" prefWidth="565.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.colab1.VistaController">
    <children>
       <Button fx:id="Saldo" layoutX="227.0" layoutY="98.0" mnemonicParsing="false" onAction="#OnConsultar" text="Consultar saldo" />
-      <Button layoutX="241.0" layoutY="139.0" mnemonicParsing="false" onAction="#onDepositar" text="Depositar" />
+      <Button layoutX="241.0" layoutY="139.0" mnemonicParsing="false" text="Depositar" />
       <Button layoutX="250.0" layoutY="178.0" mnemonicParsing="false" text="Recibir" />
       <Button layoutX="256.0" layoutY="210.0" mnemonicParsing="false" text="Salir" />
    </children>
