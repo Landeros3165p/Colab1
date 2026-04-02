@@ -42,4 +42,36 @@ public class VistaController {
             e.printStackTrace();
         }
     }
+    @FXML
+    public void onRecibir (ActionEvent event){
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Recibir.fxml"));
+        try {
+
+            Parent root = loader.load();
+
+            Stage stage = new Stage();
+            stage.setTitle("Aqui recibes");
+            stage.setScene(new Scene(root));
+            stage.show();
+
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+    @FXML
+    public void onSalir (ActionEvent event){
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Salir.fxml"));
+        try {
+
+            Parent root = loader.load();
+
+            Stage stage = new Stage();
+            stage.setTitle("Aqui sales");
+            stage.setScene(new Scene(root));
+            stage.show();
+
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
 }

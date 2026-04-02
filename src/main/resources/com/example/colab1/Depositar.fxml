@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx/17.0.12"
-            xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.example.colab1.DepositarController"
-            prefHeight="400.0"
-            prefWidth="600.0">
-
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.colab1.DepositarController">
+   <children>
+      <Pane layoutY="-3.0" prefHeight="423.0" prefWidth="685.0">
+         <children>
+            <Button layoutX="307.0" layoutY="256.0" mnemonicParsing="false" onAction="#onEnviar" text="depositar" />
+            <Label layoutX="281.0" layoutY="54.0" text="Tu saldo es de:" />
+            <TextField fx:id="txtCantidad" layoutX="256.0" layoutY="212.0" />
+            <Label fx:id="lblSaldo" layoutX="205.0" layoutY="119.0" prefHeight="17.0" prefWidth="251.0" />
+            <Label layoutX="273.0" layoutY="170.0" text="cantidad a depositar" />
+            <Button layoutX="308.0" layoutY="310.0" mnemonicParsing="false" onAction="#onRegresar" text="Regresar" />
+         </children>
+      </Pane>
+   </children>
 </AnchorPane>
