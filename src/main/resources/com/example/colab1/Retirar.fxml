@@ -10,10 +10,10 @@
    <children>
       <Label fx:id="textTitulo" layoutX="211.0" layoutY="55.0" prefHeight="36.0" prefWidth="95.0" text="RETIRAR DINERO" />
       <Label fx:id="textIngresar" layoutX="162.0" layoutY="121.0" prefHeight="25.0" prefWidth="258.0" text="Ingresa el monto que deseas retirar" />
-      <TextField fx:id="Monto" layoutX="184.0" layoutY="166.0" promptText="monto" />
+      <TextField fx:id="montoTxt" layoutX="184.0" layoutY="166.0" promptText="monto" />
       <Button layoutX="198.0" layoutY="223.0" mnemonicParsing="false" onAction="#confirmarBoton" text="Confirmar Retiro" />
       <Button layoutX="369.0" layoutY="297.0" mnemonicParsing="false" onAction="#salirBoton" text="Salir" />
       <Button layoutX="291.0" layoutY="297.0" mnemonicParsing="false" onAction="#regresarBoton" text="Regresar" />
-      <Label fx:id="txtMensaje" layoutX="236.0" layoutY="266.0" />
+      <Label fx:id="textMensaje" layoutX="236.0" layoutY="266.0" />
    </children>
 </Pane>
