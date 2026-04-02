@@ -13,5 +13,16 @@ public class RetirarController {
     private Label textMensaje;
 
 @FXML
+    protected void confirmarRetiro(){
+    String  montoString =montoTxt.getText();
+    System.out.println("confirmando retiro de "+montoString);
+
+    if (textMensaje != null) {
+        textMensaje.setText("Retiro de $"+montoString+"exitoso.");
+    }
+    else {
+        textMensaje.setText("Retiro Fallido");
+    }
+        }
 
 }
